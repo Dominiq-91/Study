@@ -21,12 +21,12 @@ public class 산술연산자 {
 		System.out.println(i2); // 변수 앞에 +라는 부호연산자가 붙게 되면, 부호비트를 그대로 유지시키고, - 부호연산자가 -를 +로, +를 -로 바꿔주는 역할을 함
 		System.out.println(i3);
 		
-		int i4 = ++i3; // i3 = i3+1; 
+		int i4 = ++i3; // i3 = i3+1;(전위연산자)
 		
 		System.out.println(i4);
 		System.out.println(i3);
 		
-		int i5 = i3++; // i3 = i3+1; , 이유는 먼저 i3의 값을 대입시키고 대입시켜진 이후에 I3+1 의 연산식이 진행된다.
+		int i5 = i3++; // i3 = i3+1;(후위연산자) , 이유는 먼저 i3의 값을 대입시키고 대입시켜진 이후에 i3+1 의 연산식이 진행된다.
 		
 		System.out.println(i5);
 		
