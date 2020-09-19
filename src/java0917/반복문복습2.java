@@ -19,10 +19,9 @@ public class 반복문복습2 {
 		
 		for(int m = 0; m < 10; m++) {
 			for(int j = 0; j < 10; j++) {
-				System.out.println(m+ ""+ j);
+				System.out.println(m+""+j);
 				
 			}
 		}
 	}
-
 }
