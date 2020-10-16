@@ -17,5 +17,6 @@ public class Car {
 */		
 		String name;
 		int number; //  -> Car라는 클래스에 이름과 번호를 필드로 선언한것.
-	
+		
+
 }
