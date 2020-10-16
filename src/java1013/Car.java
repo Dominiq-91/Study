@@ -2,6 +2,9 @@ package java1013;
 
 public class Car {
 
+	public Car(String name) {
+		System.out.println("Car의 name 생성자 입니다.");
+	}
 /*		
 		객체지향 언어
 		
@@ -15,8 +18,8 @@ public class Car {
 		
 		
 */		
-		String name;
-		int number; //  -> Car라는 클래스에 이름과 번호를 필드로 선언한것.
+//		String name;
+//		int number; //  -> Car라는 클래스에 이름과 번호를 필드로 선언한것.
 		
 
 }
